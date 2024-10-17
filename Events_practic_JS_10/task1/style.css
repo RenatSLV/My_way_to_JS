@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+
+}
+
+#field{
+    width: 100%;
+    height: 100%;
+}
+
+#ball{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 46%;
+    transition: left 1s ease, top 1s ease;
+}
